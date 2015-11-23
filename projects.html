@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>Nayan Singhal | Projects</title>
+	
+	<!-- ########## CSS Files ########## -->	
+
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="css/kriframework.css" type="text/css" media="screen" />
+	<!-- lightbox CSS -->
+	<link rel="stylesheet" href="js/prettyPhoto/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />	
+	<!-- Screen CSS -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />	
+	
+	<!-- Stylesheets for each skin -->
+	<link rel="stylesheet" href="css/style1.css" type="text/css" media="screen" />
+	
+	<!--
+	<link rel="stylesheet" href="css/style2.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/style3.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/style4.css" type="text/css" media="screen" />
+	-->
+	
+	<!-- ########## end css ########## -->	<!-- JAVASCRIPT GOES HERE -->
+	<script type='text/javascript' src='js/jquery-1.11.1.js'></script>	
+	<script type='text/javascript' src='js/jquery.js'></script>
+	<script type='text/javascript' src='js/cufon.js'></script>
+	<script type='text/javascript' src='js/geosans.js'></script>
+	<script type='text/javascript' src="js/prettyPhoto/js/jquery.prettyPhoto.js"  charset="utf-8"></script>	
+	<script type='text/javascript' src='js/custom.js'></script>
+	
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $("body").css("display", "none");
+ 
+    $("body").fadeIn(1000);
+ 
+    $("a.transition").click(function(event){
+        event.preventDefault();
+        linkLocation = this.href;
+        $("body").fadeOut(1000, redirectPage);      
+    });
+         
+    function redirectPage() {
+        window.location = linkLocation;
+    }
+});
+</script>
+<style type="text/css">
+p
+{ 
+font-size:14px;
+text-align: justify;
+}
+pr
+{
+font-size:20px;
+text-align: justify;
+}
+
+.content {
+margin-bottom: 50px;
+padding-bottom: 30px;
+-webkit-box-shadow: 0 45px 60px -60px #AAA;
+-moz-box-shadow: 0 45px 60px -60px #AAA;
+box-shadow: 0 45px 60px -60px #AAA;
+height:250px
+}
+.contentImg {
+	margin-right:;
+	padding:4px;
+	border:1px solid #ccc;
+	margin:5px;
+	-webkit-box-shadow: 0 45px 60px -60px #AAA;
+-moz-box-shadow: 0 45px 60px -60px #AAA;
+box-shadow: 0 45px 60px -60px #AAA;
+}
+</style>
+</head>
+<body id='top' >
+<div class="wrap_fullwidth" id='head'>
+	
+	<div class='center'>
+	  <p class='headline'><a href='#'></a> <span></span><span></span></p>
+			
+			<form action="#" id="searchform" method="get">
+				<div></div>
+			</form><!-- end searchform-->
+  </div>
+	
+	<!-- end header -->
+</div>
+	
+	
+<div class="wrap_fullwidth" id='second_header'>
+	
+		<div class='center'>
+		
+		  <a href="index.html"><h1><font color="black">Nayan's Projects</h1></a>
+		  <!-- end center -->
+ 
+  <ul id="nav">
+				<li><font color="black"><a href="index.html" class="transition">Home</a></li>
+				<li class='current'><a href="projects.html" >Projects</a></li>
+				<li><a href="resume.html" class="transition">Resume</a></li>
+                <li><a href="gallery.html" class="transition">Gallery</a></li>
+                <li><a href="contact.html" class="transition">Contact</a></li>
+                </ul>
+	
+  <!-- end second_header -->
+  </div>
+	
+	</div>
+	
+	
+		
+	<div class="wrap_fullwidth small_margin" id='main'>
+		
+		<!--<div class='center content'><iframe width="350px" height="240px"
+src="http://www.youtube.com/embed/XGSy3_Czz8k?autoplay=0" align="right"  >-->
+</iframe>
+		<div class='center content'><img class='contentImg' src="project\scl.jpg " width="350px" height="240px"  align="right" HSPACE="150" VSPACE="150" margin />
+		<p></p>
+		<pr><font color="black">Robot Dynamics Engine with Spiking Neurons</pr>
+		<p></p>
+    <p>  Develop a system that can achieve a real time manipulation for an articulated robot with three or more degrees of freedom having kinematic or loop like structure using spiking silicon neurons. Modeled the framework which simplifies the process of expressing and analyzing the dynamics of a simple rigid body system. It calculates the joint acceleration using Articulated Body algorithm and Newton Euler algorithm designed in spatial vector (6-Dimension vector) and integrates the joint acceleration using Heun’s Integrator to reckon the joint position and joint velocity.</p>
+	
+		</p>
+		
+		</div>
+		
+		<br/>
+		
+		
+		<div class='center content'><img class='contentImg' src="project\NeuronSimulator.png " width="350px" height="240px"  align="right" HSPACE="150" VSPACE="150" margin />
+		
+		<p></p>
+		<pr><font color="black">Neural Simulator</font></pr>
+		<p></p>
+    <p>   Developed a C++ neural simulator for simulating large scale neural system. It uses the leaky integrate-and-fire (LIF) neuron model to encode the current changes in the neuron’s soma due to dendritic input by calculating the spike rate of the neuron and linear decoding is used to estimate the magnitude that was encoded with a nonlinear process while operating in a noisy environment.</p>
+       
+		
+		</div>
+		
+        <br/>
+		
+		
+		<div class='center content'><img class='contentImg' src="project\question_answering.png " width="350px" height="240px"  align="right" margin />
+		
+		<p></p>
+		<pr><font color="black">Natural Language Question Answering System</font></pr>
+		<p></p>
+    <p>   Developed a system which relates the word logically and provides an admissible answer to the user query. It analyzes a question to reduce it to its canonical form, expressed as a dependency tree generated using Stanford Parser. Next, it categorizes the type of answer expected using the rules formed in the dependency tree and then extracts the answer by searching through the generated state graph using certain heuristics. Submitted the research paper on “Question Answering system using Dependency tree and State Graph” in <font color="#483D8B" ><strong><i>AAAI Conference on Artificial Intelligence - 16</strong></i></font>.</p>
+       
+		
+		</div>
+		
+        <br/>
+		
+		<div class='center content'><img class='contentImg' src="project\MWE.jpg " width="350px" height="240px"  align="right" margin />
+		
+		<p></p>
+		<pr><font color="black">MultiWord Expression Extraction</font></pr>
+		<p></p>
+    <p>   Developed an unsupervised and automated system for large scale extraction of multiword expressions from a large corpus. The core idea behind it is to explore the extent up to which word alignment can be used to distinguish idiomatic expressions and literal expressions. The system is based on linguistic and statistical filtering using Pointwise Mutual Information. </p>
+	
+		</p>
+		
+		</div>
+		
+        <br/>
+		
+		
+        <div class='center content'><img src="project\ecg_analysis.jpg " class='contentImg' align="right" width="350px" height="240px" />
+      <!--  <div class='content_fullwidth'>-->
+	
+        <!--<div class="wrap_fullwidth small_margin" id='main'>-->
+        <p></p>
+		<pr><font color="black">Segmentation of ECG Beat and Diagnosis of some Cardiac Problems </font></pr>
+		<p></p>
+    <p>   Developed a semi-automatic system to analyze the electric impulses obtained from ECG tests of human heart and diagnose them for some specific cardiac problems which include Normal Sinus Rhytnm, Arythmia, Atrial Fibrillation, Supraventricular Arythmia and S-T change by using SVM (Support Vector Machine). The diagnosis is based on the analysis of signals using Gaussian mixture model and features extracted through correlation coefficient, retrieved after the segmentation of each ECG beats.</p></div>
+
+       <div class='center content'><img src="project\person_tracking.jpg " class='contentImg' align="right" width="350px" height="240px"/>
+      <!--  <div class='content_fullwidth'>-->
+	
+        <!--<div class="wrap_fullwidth small_margin" id='main'>-->
+        <p></p>
+		<pr><font color="black">Object Tracking under Cluttered Environment </font></pr>
+		<p></p>
+    <p>  Develop an Object Tracking System which idetect and track a person or an object in a video using OpenCV. Formulate the algorithm that consists of a sequence of steps like foreground detection, connected component analysis, basic tracking, people grouping, and estimation of group size.
+	</p></div>
+		
+        <div class='center content'><img src="project\library.jpg " class='contentImg' align="right" width="350px" height="240px" />
+      <!--  <div class='content_fullwidth'>-->
+	
+        <!--<div class="wrap_fullwidth small_margin" id='main'>-->
+        <p></p>
+		<pr><font color="black">Online Library Management System </font></pr>
+		<p></p>
+    <p>  Developed an Online Library Management system using PHP and SQL. It provides the user with all the functionalities of a library. The database is managed by an Administrator. It also sends an automatically generated confirmation mail of book issued.</p></div>
+        <div class='content_fullwidth'>
+    <p>    </div>
+		
+		<div class='center content'><img src="project\amazing_tiles.jpg " class='contentImg' align="right" width="350px" height="240px"/>
+      <!--  <div class='content_fullwidth'>-->
+	
+        <!--<div class="wrap_fullwidth small_margin" id='main'>-->
+        <p></p>
+		<pr><font color="black">Amazing Tiles (C++ game) </font></pr>
+		<p></p>
+    <p>  Developed a game using Graphics.h, STL and Windows.h. Initially a grid of tiles is shown and behind each tile there is an image. There exist exactly 2 copies of each image. The user has to guess which 2 tiles have the same image behind them in minimum number of moves.
+	</p></div>
+	
+	
+	
+        <div class='content_fullwidth'>
+    <p>    </div>
+	
+		</p>
+		
+		<div class='center content'>
+		
+		<embed src="project\interiornew.swf"
+ type="application/x-shockwave-flash" 
+ allowscriptaccess="always" 
+ allowfullscreen="true"  class='contentImg' align="right" width="350px" height="240px" wmode="direct"/> 
+\
+      <!--  <div class='content_fullwidth'>-->
+	
+        <!--<div class="wrap_fullwidth small_margin" id='main'>-->
+        <p></p>
+		<pr><font color="black">3-D Walk-Through of Computer Center-3 IIIT-Allahabad </font></pr>
+		<p></p>
+    <p>  Developed a 3-D virtual walk-through of CC-3 at IIIT-A using Copper Cube & Maya and published in WebGL.</p>
+	<p> A portion of the walkthrough can be seen here by clicking on it & navigating using Arrow keys.</div>
+	
+        <div class='content_fullwidth'>
+    <p>    </div>
+	
+		</p>
+		
+		
+		
+		<!-- end center -->
+		</div>
+	
+	<!-- end main -->
+</div>
+	
+	
+	
+	<div class="wrap_fullwidth" id='breadcrumb_wrap'>
+	
+		<div class='center'>
+		
+			
+			
+			<ul class="social_bookmarks">
+				<li class="rss"><a href="https://plus.google.com/117277295330228198095/about" target="new">RSS</a></li>
+				<li class="github"><a href="https://github.com/nayansinghal" target="new">Facebook</a></li>
+				<li class="linkedin"><a href="https://www.linkedin.com/pub/nayan-singhal/44/554/86" target="new">Facebook</a></li>
+				<li class="bitbucket"><a href="https://bitbucket.org/nayansinghal" target="new">Facebook</a></li>
+				<li class="facebook"><a href="https://www.facebook.com/nayan.singhal.35" target="new">Facebook</a></li>
+			</ul>
+		
+		<!-- end center -->
+		</div>
+	
+	<!-- end breadcrumb_wrap -->
+	</div>
+	
+	
+	
+	<div class="wrap_fullwidth" id='footer_bottom'>
+	
+		<div class='center'>
+			<span class='copyright'></span>
+			<a class='scrollTop ' href='#top'>top</a>
+		<!-- end center -->
+		</div>
+	
+		<!-- end footer -->
+	</div>
+	
+	
+	
+</body>
+</html>
